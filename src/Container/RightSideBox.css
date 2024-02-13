@@ -1,0 +1,135 @@
+.right-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    gap: 15px;
+    background-color: transparent;
+    padding: 5px;
+    width: 350px;
+    height: 95vh;
+}
+.qa-box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 45%;
+}
+.QA-head{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    z-index: 1;
+}
+.qa-body{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    position: relative;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.msg-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:5px;
+    border: 1px solid gray;
+}
+.msg-box-content{
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+.last{
+    border-bottom: none;
+}
+.msg-sent{
+    position: absolute;
+    right: 0;
+    background-color: rgb(216, 172, 27);
+    padding: 3px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 5px;
+}
+.msg-recieve{
+    position: absolute;
+    left: 0;
+    background-color: rgb(204, 204, 204);
+    padding: 3px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 5px;
+}
+.input-box{
+    width: 100%;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.res-input{
+    border: none;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+.send-icon{
+    cursor: pointer;
+    padding:0 20px;
+    border-left: 1px solid gray;
+}
+.ques-box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    height: 45%;
+}
+.ques-head{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    align-items: flex-start;
+    padding-left: 15px;
+    overflow-y: auto;
+}
+.ques{
+    display: flex;
+    align-items: center;
+    padding:2px 10px;
+    font-size: 13px;
+    border: 2px solid rgb(228, 173, 22);
+    border-radius: 25px;
+    cursor: pointer;
+}
